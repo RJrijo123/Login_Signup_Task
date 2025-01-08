@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Additional CSS for better dropdown design */
+nav .relative {
+    position: relative;
+  }
+  
+  nav .absolute {
+    position: absolute;
+    top: 190%;
+    right: 0;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav .absolute ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav .absolute li {
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+  }
+  
+  nav .absolute li:hover {
+    background-color: whitesmoke;
+  }
+  .account :hover {
+    color: #f5da47;
+  }
+  .dropdown {
+    padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 13px;
+  }
